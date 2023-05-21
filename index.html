@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Leonardo | Portfólio</title>
+  <meta name="description" content="eu sou LEONARDO CARLOS" />
+  <link rel="shortcut icon" href="./assets/ico/astrounaut.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/39b5308f23.js" crossorigin="anonymous"></script>
+
+  <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/png/profile.png" alt="Leonardo Carlos Logo Image" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">Leonardo Carlos</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./#home" class="header__link"> Inicio </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#about" class="header__link"> Sobre mim </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#projects" class="header__link">
+              Projetos
+            </a>
+          </li>
+          <li hidden class="header__link-wrapper">
+            <a href="./#contact" class="header__link"> Contato </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <i class="fa-solid fa-bars fa-3x header__main-ham-menu"></i>
+          <i class="fa-solid fa-xmark fa-3x header__main-ham-menu-close d-none"></i>
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./#home"> Inicio </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#about"> Sobre mim </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#projects"> Projetos </a>
+          </li>
+
+          <li hidden class="header__sm-menu-link">
+            <a href="./#contact"> Contato </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">
+        < LEONARDO CARLOS />
+      </h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Meu combustível é a paixão pela tecnologia. Compartilhando conhecimento e ajudando
+          pessoas, trilho o caminho para me tornar uma referência inspiradora no universo digital.
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">Projetos</a>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://www.linkedin.com/in/leonardocsdias/" target="_blank" class="home-hero__social-icon-link">
+          <i class="fa-brands fa-linkedin fa-3x"></i>
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://github.com/leocarlos-dias" target="_blank" class="home-hero__social-icon-link">
+          <i class="fa-brands fa-github fa-3x"></i>
+        </a>
+      </div>
+      <div class="home-hero__social" style="display: none">
+        <a href="#" class="home-hero__social-icon-link">
+          <img src="./assets/png/twitter-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social" style="display: none">
+        <a href="#" class="home-hero__social-icon-link">
+          <img src="./assets/png/yt-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+      <div class="home-hero__social" style="display: none">
+        <a href="#" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+          <img src="./assets/png/insta-ico.png" alt="icon" class="home-hero__social-icon" />
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">Sobre Mim</span>
+        <span class="heading-sec__sub">
+          "Nada é menos produtivo do que tornar eficiênte algo que nem deveria ser feito." <br> - <strong>Peter
+            Drucker</strong>
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Me conhecer</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              Olá, meu nome é Leonardo Carlos e sou um Desenvolvedor Back End. Tenho experiência em Node.js com
+              TypeScript...
+            </p>
+            <p class="about__content-details-para">
+              Tenho formação técnica em Automação Industrial e atualmente estou cursando Engenharia Elétrica.
+            </p>
+            <p class="about__content-details-para">
+              Minha paixão pela tecnologia e pela resolução de problemas por meio de códigos me levou a fazer uma
+              transição de carreira. Atualmente, estudo as melhores arquiteturas e designs de projetos, como os
+              princípios do SOLID, arquitetura limpa e hexagonal, entre outros, para criar aplicações robustas e
+              escaláveis Além disso, trabalho como monitor na Kenzie Academy Brasil.
+            </p>
+            <p class="about__content-details-para">
+              Antes disso, trabalhei na maior siderúrgica da América Latina, onde adquiri habilidades valiosas em
+              resolução de problemas, pensamento analítico e melhoria contínua no campo da automação industrial.
+            </p>
+          </div>
+          <a style="visibility:hidden" href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contato</a>
+        </div>
+        <div class="about__content-skills">
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Minhas habilidades</h3>
+            <div class="skills">
+              <img class="orbit" width="64" height="64" src="./assets/svg/html-5.svg" alt="html-5">
+              <img class="orbit" width="64" height="64" src="./assets/svg/css-3.svg" alt="css-3">
+              <img class="orbit" width="64" height="64" src="./assets/svg/javascript.svg" alt="javascript">
+              <img class="orbit" width="64" height="64" src="./assets/svg/react.svg" alt="react">
+              <img class="orbit" width="64" height="64" src="./assets/svg/next-js.svg" alt="next-js">
+              <img class="orbit" width="64" height="64" src="./assets/svg/node-js.svg" alt="node-js">
+              <img class="orbit" width="64" height="64" src="./assets/svg/typescript.svg" alt="typescript">
+              <img class="orbit" width="64" height="64" src="./assets/svg/java.svg" alt="java">
+              <img class="orbit" width="64" height="64" src="./assets/svg/jest.svg" alt="jest">
+              <img class="orbit" width="64" height="64" src="./assets/svg/jwt.svg" alt="jwt">
+              <img class="orbit" width="64" height="64" src="./assets/svg/spring-boot.svg" alt="spring-boot">
+              <img class="orbit" width="64" height="64" src="./assets/svg/python.svg" alt="python">
+              <img class="orbit" width="64" height="64" src="./assets/svg/django.svg" alt="django">
+              <img class="orbit" width="64" height="64" src="./assets/svg/git.svg" alt="git">
+              <img class="orbit" width="64" height="64" src="./assets/svg/postgresql.svg" alt="postgresql">
+              <img class="orbit" width="64" height="64" src="./assets/svg/mongodb.svg" alt="mongodb">
+              <img class="orbit" width="64" height="64" src="./assets/svg/office-365.svg" alt="office-365">
+              <img class="orbit" width="64" height="64" src="./assets/svg/sap.svg" alt="sap">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projetos</span>
+        <span class="heading-sec__sub">
+          "A criatividade é a inteligência se divertindo." <br> <strong>- Albert Einstein</strong>
+        </span>
+      </h2>
+      <div class="projects__content">
+        <div class="projects__row">
+          <div hidden class="projects__row-img-cont">
+            <img src="" alt="" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">KImóveis</h3>
+            <p class="projects__row-content-desc">
+              Este é um serviço web (API) de gerenciamento imobiliário desenvolvido durante o módulo de backend da
+              Kenzie Academy Brasil. Ele oferece uma variedade de recursos para gerenciar usuários, imóveis,
+              agendamentos e rotas autenticadas.
+            </p>
+            <div class="projects__row-content-skills">
+              <img class="orbit" width="64" height="64" src="./assets/svg/node-js.svg" alt="node-js">
+              <img class="orbit" width="64" height="64" src="./assets/svg/express-js.svg" alt="express-js">
+              <img class="orbit" width="64" height="64" src="./assets/svg/typescript.svg" alt="typescript">
+              <img class="orbit" width="64" height="64" src="./assets/svg/typeorm.svg" alt="typeorm">
+              <img class="orbit" width="64" height="64" src="./assets/svg/postgresql.svg" alt="postgresql">
+              <img class="orbit" width="64" height="64" src="./assets/svg/sqlite.svg" alt="sqlite">
+              <img class="orbit" width="64" height="64" src="./assets/svg/git.svg" alt="git">
+              <img class="orbit" width="64" height="64" src="./assets/svg/jest.svg" alt="jest">
+              <img class="orbit" width="64" height="64" src="./assets/svg/jwt.svg" alt="jwt">
+              <img class="orbit" width="64" height="64" src="./assets/svg/zod.svg" alt="zod">
+            </div>
+            <a href="https://github.com/leocarlos-dias/api-kimoveis" class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank">
+              <i class="fa-brands fa-github-alt fa-beat fa-lg" style="color: #19181FAA;"></i> Repositório
+            </a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div hidden class="projects__row-img-cont">
+            <img src="" alt="" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">AlgaLog</h3>
+            <p class="projects__row-content-desc">
+              O AlgaLog é um serviço web (API) desenvolvido para um sistema de entregas que tem como objetivo gerenciar
+              pedidos e usuários. Desenvolvido durante o evento da AlgaWorks, o projeto utiliza diversas tecnologias
+              para garantir sua eficiência e funcionalidade.
+            </p>
+            <div class="projects__row-content-skills">
+              <img class="orbit" width="64" height="64" src="./assets/svg/java.svg" alt="java">
+              <img class="orbit" width="64" height="64" src="./assets/svg/spring-boot.svg" alt="spring-boot">
+              <img class="orbit" width="64" height="64" src="./assets/svg/mysql.svg" alt="mysql">
+              <img class="orbit" width="64" height="64" src="./assets/svg/postgresql.svg" alt="postgresql">
+              <img class="orbit" width="64" height="64" src="./assets/svg/flyway.svg" alt="flyway">
+              <img class="orbit" width="64" height="64" src="./assets/svg/jest.svg" alt="jest">
+              <img class="orbit" width="64" height="64" src="./assets/svg/maven.svg" alt="maven">
+            </div>
+            <a href="https://github.com/leocarlos-dias/api-algalog" class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank">
+              <i class="fa-brands fa-github-alt fa-beat fa-lg" style="color: #19181FAA;"></i> Repositório
+            </a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div hidden class="projects__row-img-cont">
+            <img src="" alt="" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Fast
+              Web Chat</h3>
+            <p class="projects__row-content-desc">
+              O Fast Web Chat (FWC) é uma aplicação web desenvolvida em Node.js com TypeScript e Express, que utiliza
+              WebSockets para permitir a troca de mensagens em tempo real entre usuários. O FWC tem como objetivo
+              fornecer uma forma rápida e prática de comunicação online, onde os usuários podem trocar mensagens de
+              forma anônima e descontraída.
+            </p>
+            <div class="projects__row-content-skills">
+              <img class="orbit" width="64" height="64" src="./assets/svg/html-5.svg" alt="html-5">
+              <img class="orbit" width="64" height="64" src="./assets/svg/css-3.svg" alt="css-3">
+              <img class="orbit" width="64" height="64" src="./assets/svg/tailwindcss.svg" alt="tailwindcss">
+              <img class="orbit" width="64" height="64" src="./assets/svg/node-js.svg" alt="node-js">
+              <img class="orbit" width="64" height="64" src="./assets/svg/express-js.svg" alt="express-js">
+              <img class="orbit" width="64" height="64" src="./assets/svg/typescript.svg" alt="typescript">
+              <img class="orbit" width="64" height="64" src="./assets/svg/javascript.svg" alt="javascript">
+              <img class="orbit" width="64" height="64" src="./assets/svg/socket-io.svg" alt="socket-io">
+              <img class="orbit" width="64" height="64" src="./assets/svg/git.svg" alt="git">
+            </div>
+            <a href="https://github.com/leocarlos-dias/fast-chat-web" class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank">
+              <i class="fa-brands fa-github-alt fa-beat fa-lg" style="color: #19181FAA;"></i> Repositório
+            </a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div hidden class="projects__row-img-cont">
+            <img src="" alt="" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">UserHub</h3>
+            <p class="projects__row-content-desc">
+              Este é um serviço web (API) consiste em um serviço de gerenciamento de usuários que permite listar,
+              cadastrar, atualizar e desativar usuários em um sistema.
+            </p>
+            <div class="projects__row-content-skills">
+              <img class="orbit" width="64" height="64" src="./assets/svg/node-js.svg" alt="node-js">
+              <img class="orbit" width="64" height="64" src="./assets/svg/express-js.svg" alt="express-js">
+              <img class="orbit" width="64" height="64" src="./assets/svg/typescript.svg" alt="typescript">
+              <img class="orbit" width="64" height="64" src="./assets/svg/postgresql.svg" alt="postgresql">
+              <img class="orbit" width="64" height="64" src="./assets/svg/zod.svg" alt="zod">
+              <img class="orbit" width="64" height="64" src="./assets/svg/git.svg" alt="git">
+            </div>
+            <a href="https://github.com/leocarlos-dias/api-userhub" class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank">
+              <i class="fa-brands fa-github-alt fa-beat fa-lg" style="color: #19181FAA;"></i> Repositório
+            </a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div hidden class="projects__row-img-cont">
+            <img src="" alt="" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Hamburguer Kenzie</h3>
+            <p class="projects__row-content-desc">
+              Este é uma aplicação web desenvolvida durante o módulo de frontend da Kenzie Academy Brasil. Ela oferece
+              uma variedade de recursos para comércio eletrônico no setor alimentício.
+            </p>
+            <div class="projects__row-content-skills">
+              <img class="orbit" width="64" height="64" src="./assets/svg/html-5.svg" alt="html-5">
+              <img class="orbit" width="64" height="64" src="./assets/svg/css-3.svg" alt="css-3">
+              <img class="orbit" width="64" height="64" src="./assets/svg/react.svg" alt="react">
+              <img class="orbit" width="64" height="64" src="./assets/svg/typescript.svg" alt="typescript">
+              <img class="orbit" width="64" height="64" src="./assets/svg/styled-components.svg"
+                alt="styled-components">
+              <img class="orbit" width="64" height="64" src="./assets/svg/zod.svg" alt="zod">
+              <img class="orbit" width="64" height="64" src="./assets/svg/axios.svg" alt="axios">
+              <img class="orbit" width="64" height="64" src="./assets/svg/git.svg" alt="git">
+            </div>
+            <a href="https://github.com/leocarlos-dias/hamburguer-kenzie" class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank">
+              <i class="fa-brands fa-github-alt fa-beat fa-lg" style="color: #19181FAA;"></i> Repositório
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section hidden id="contact" class="contact sec-pad dynamicBg">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contato</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          "Os dois mais importantes dias da sua vida são os dias que você nasce e o dia que você descobre o porquê."
+          <br> <strong>- Mark Tawin</strong>
+        </span>
+      </h2>
+      <div class="contact__form-container">
+        <form class="contact__form">
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="name">Nome</label>
+            <input required placeholder="Insira o seu nome" type="text" class="contact__form-input" name="name"
+              id="name" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="email">Email</label>
+            <input required placeholder="Insira o seu e-mail" type="text" class="contact__form-input" name="email"
+              id="email" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="message">Mensagem</label>
+            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Escreva a sua mensagem"
+              name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn btn--theme contact__btn">
+            Enviar
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" class="main-footer__icon"
+              href="https://www.linkedin.com/in/leonardocsdias">
+              <i class="fa-brands fa-linkedin fa-4x "></i>
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/leocarlos-dias">
+              <i class="fa-brands fa-github fa-4x"></i>
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Leonardo Carlos</h4>
+          <p class="main-footer__short-desc">
+            Através da tecnologia, busco capacitar-me para inspirar e promover uma mudança positiva no mundo,
+            construindo um futuro de oportunidades para todos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
