@@ -368,14 +368,14 @@ textarea {
 
 .about__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10rem;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 5rem;
 }
 
 @media only screen and (max-width: 56.25em) {
   .about__content {
     grid-template-columns: 1fr;
-    grid-gap: 8rem;
+    grid-gap: 4rem;
   }
 }
 
@@ -395,7 +395,7 @@ textarea {
 .about__content-details-para {
   font-size: 1.8rem;
   color: #fff;
-  max-width: 60rem;
+  max-width: 70rem;
   line-height: 1.7;
   margin-bottom: 1rem;
 }
