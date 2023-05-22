@@ -239,7 +239,7 @@ textarea {
 }
 
 .text-primary {
-  color: #fff;
+  color: #ACA7CB;
   font-size: 2.2rem;
   text-align: center;
   width: 100%;
@@ -309,7 +309,6 @@ textarea {
   width: 100%;
   display: block;
   padding: 1.2rem;
-  border-bottom: 2px solid #eee;
   transition: background .3s;
 }
 
@@ -319,6 +318,10 @@ textarea {
 
 .home-hero__social-icon-link--bd-none {
   border-bottom: 0;
+}
+
+.home-hero__social-icon-link i {
+  color: #ACA7CB;
 }
 
 .home-hero__social-icon {
@@ -393,7 +396,7 @@ textarea {
 
 .about__content-details-para {
   font-size: 1.8rem;
-  color: #fff;
+  color: #787586;
   max-width: 65rem;
   line-height: 1.7;
   margin-bottom: 2rem;
@@ -420,11 +423,13 @@ textarea {
   grid-template-columns: 3fr 1fr;
   grid-gap: 5rem;
   margin-bottom: 11rem;
+  filter: grayscale(100%);
 }
 
 .projects__row:hover {
   scale: 1.01;
   transition: all .3s;
+  filter: none;
 }
 
 .projects__row:not(:hover) {
@@ -868,12 +873,23 @@ textarea {
 }
 
 .main-footer__social-cont {
+  display: flex;
+  gap: 1.5rem;
   margin-top: 2rem;
 }
 
 .main-footer__icon {
   margin-right: 1rem;
   width: 2.5rem;
+}
+
+.main-footer__icon i {
+  color: #787586;
+  transition: all 0.3s;
+}
+
+.main-footer__icon:hover i {
+  color: #ACA7CB;
 }
 
 .main-footer__icon--mr-none {
@@ -907,28 +923,6 @@ textarea {
   gap: 1.5rem;
   animation: moveImages 6s infinite alternate;
 }
-
-/* .skills__skill {
-  padding: 1rem 2rem;
-  margin-bottom: 1.5rem;
-  margin-right: 1.5rem;
-  font-size: 1.6rem;
-  background: rgba(153, 153, 153, 0.2);
-  border-radius: 5px;
-  font-weight: 700;
-  color: #787586;
-  transition: all .3s;
-}
-
-.skills__skill:hover {
-  background-color: #518071;
-  color: #fff;
-  cursor: default;
-}
-
-.skills__skill:hover .skills__skill:not(:hover) {
-  scale: 0.2;
-} */
 
 .mouse {
   width: 25px;
