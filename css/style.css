@@ -49,10 +49,9 @@ body {
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
-  font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Quantico', sans-serif;
   overflow: overlay;
 }
 
@@ -368,8 +367,8 @@ textarea {
 
 .about__content {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: 5rem;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 6rem;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -395,9 +394,9 @@ textarea {
 .about__content-details-para {
   font-size: 1.8rem;
   color: #fff;
-  max-width: 70rem;
+  max-width: 65rem;
   line-height: 1.7;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .about__content-details-para--hl {
@@ -565,44 +564,44 @@ textarea {
   letter-spacing: 0px;
   background: #f0f0f0;
   border-radius: 5px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .contact__form-input::placeholder {
   color: #999;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.6rem;
 }
 
 .contact__form-input::-webkit-input-placeholder {
   color: #999;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.6rem;
 }
 
 .contact__form-input:-ms-input-placeholder {
   color: #999;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.6rem;
 }
 
 .contact__form-input::-ms-input-placeholder {
   color: #999;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.6rem;
 }
 
 .contact__form-input:-moz-placeholder {
   opacity: 1;
   color: #999;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.6rem;
 }
 
 .contact__form-input::-moz-placeholder {
   opacity: 1;
   color: #999;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.6rem;
 }
 
@@ -916,7 +915,7 @@ textarea {
   font-size: 1.6rem;
   background: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
-  font-weight: 600;
+  font-weight: 700;
   color: #787586;
   transition: all .3s;
 }
